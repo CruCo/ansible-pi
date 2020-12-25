@@ -10,6 +10,13 @@ Ping the pis
 ```
 ansible-playbook -i inventory.yaml ping-playbook.yaml
 ```
+
+## Setup
+Updates all packages and makes a basic setup
+```
+ansible-playbook -i inventory.yaml setup.yaml
+```
+
 ## Maintenance
 Simple apt update & upgrade
 ```

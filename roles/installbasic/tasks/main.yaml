@@ -1,0 +1,7 @@
+---
+- name: install basic set of packages
+  apt:
+    name: 
+      - vim
+    state: present
+    update_cache: true
